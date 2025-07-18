@@ -100,18 +100,13 @@ const videoCommand = require('./commands/video');
 global.packname = settings.packname;
 global.author = settings.author;
 global.channelLink = "https://whatsapp.com/channel/0029Va90zAnIHphOuO8Msp3A";
-global.ytch = "Mr Unique Hacker";
+global.ytch = "Nity";
 
 // Add this near the top of main.js with other global configurations
 const channelInfo = {
     contextInfo: {
         forwardingScore: 1,
-        isForwarded: true,
-        forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363161513685998@newsletter',
-            newsletterName: 'KnightBot MD',
-            serverMessageId: -1
-        }
+        isForwarded: true
     }
 };
 
@@ -861,12 +856,7 @@ async function handleGroupParticipantUpdate(sock, update) {
                     mentions: [participant],
                     contextInfo: {
                         forwardingScore: 1,
-                        isForwarded: true,
-                        forwardedNewsletterMessageInfo: {
-                            newsletterJid: channelId,
-                            newsletterName: 'KnightBot MD',
-                            serverMessageId: -1
-                        }
+                        isForwarded: true
                     }
                 });
             }
@@ -900,12 +890,8 @@ async function handleGroupParticipantUpdate(sock, update) {
                     mentions: [participant],
                     contextInfo: {
                         forwardingScore: 1,
-                        isForwarded: true,
-                        forwardedNewsletterMessageInfo: {
-                            newsletterJid: channelId,
-                            newsletterName: 'KnightBot MD',
-                            serverMessageId: -1
-                        }
+                        isForwarded: true
+                        
                     }
                 });
             }

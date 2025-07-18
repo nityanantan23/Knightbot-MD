@@ -1,4 +1,4 @@
-# 🤖 Knight Bot
+# 🤖 Meap Bot
 
 This is a WhatsApp bot built using the Baileys library for group management, including features like tagging all members, muting/unmuting, and many more. It's designed to help admins efficiently manage WhatsApp groups.
 
@@ -6,11 +6,11 @@ This is a WhatsApp bot built using the Baileys library for group management, inc
   <a href="https://git.io/typing-svg"> 
     <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=Knight-Bot;Multi+Device+Whatsapp+Bot;Coded+By+Professor" alt="Typing SVG" />
   </a> 
-</div> 
+</div>
 
 <div align="center"> 
   <a href="https://youtube.com/@mr_unique_hacker"> 
-    <img src="https://github.com/mruniquehacker/Knightbot-MD/blob/main/assets/bot_image.jpg" alt="Knight Bot" height="300"> 
+    <img src="https://github.com/mruniquehacker/Knightbot-MD/blob/main/assets/bot_image.jpg" alt="Meap Bot" height="300"> 
   </a> 
 </div>
 
@@ -20,7 +20,7 @@ This is a WhatsApp bot built using the Baileys library for group management, inc
 
 ### Step 1: Fork the Repository
 
-Click the button below to fork the Knight Bot repository to your GitHub account:
+Click the button below to fork the Meap Bot repository to your GitHub account:
 
 <div align="center">
   <a href="https://github.com/mruniquehacker/Knightbot-MD/fork">
@@ -46,7 +46,6 @@ Deploy the bot and easily connect it to your WhatsApp account by pair code. Clic
   </a>
 </div>
 
-
 ### After getting creds.json file, upload it to session folder
 
 ---
@@ -64,8 +63,8 @@ For further customization and setup guidance, click the button below:
   </a>
 </div>
 
-
 ### Deploy Now on Below Panel
+
 <div align="center">
 <a href="https://dashboard.katabump.com/auth/login#d6b7d6" target="_blank">
   <img src="https://img.shields.io/badge/Katabump-D6B7D6?style=for-the-badge&logo=server&logoColor=black" alt="Katabump"/>
@@ -116,29 +115,28 @@ It is lightweight and can be easily customized to add more commands as per your 
 
 1. **Clone the repository:**
 
-    ```bash
-    git clone https://github.com/mruniquehacker/Knightbot-MD.git
-    cd Knightbot-MD
-    ```
+   ```bash
+   git clone https://github.com/mruniquehacker/Knightbot-MD.git
+   cd Knightbot-MD
+   ```
 
 2. **Install the dependencies:**
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 3. **Run the bot:**
 
-    ```bash
-    node index.js
-    ```
+   ```bash
+   node index.js
+   ```
 
 4. **Scan the QR code:**
 
-    Once the bot starts, a QR code will appear in the terminal. Scan this QR code using the Linked Devices feature in WhatsApp to connect your WhatsApp account with the bot.
+   Once the bot starts, a QR code will appear in the terminal. Scan this QR code using the Linked Devices feature in WhatsApp to connect your WhatsApp account with the bot.
 
 ---
-
 
 ## 📄 License
 
@@ -155,7 +153,6 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 ## 🌟 Show your support
 
 If you like this project, please give it a [⭐️ star on GitHub](https://github.com/mruniquehacker/Knightbot)!
-
 
 ## Credits
 
@@ -179,7 +176,9 @@ If you like this project, please give it a [⭐️ star on GitHub](https://githu
 - The developers assume no liability and are not responsible for any misuse or damage caused by this program.
 
 ### License
+
 This project is licensed under the MIT License. However, you must:
+
 - Use this software in compliance with all applicable laws and regulations
 - Include original license and copyright notices
 - Credit original authors
@@ -190,5 +189,6 @@ This project is licensed under the MIT License. However, you must:
 Copyright (c) 2024 Professor. All rights reserved.
 
 This project contains code from various open source projects:
+
 - Baileys (MIT License)
 - Other libraries as listed in package.json
