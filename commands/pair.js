@@ -37,7 +37,7 @@ async function pairCommand(sock, chatId, message, q) {
           text: `That number is not registered on WhatsApp❗️`,
           contextInfo: {
             forwardingScore: 1,
-            isForwarded: true
+            isForwarded: true,
           },
         });
       }
@@ -66,7 +66,7 @@ async function pairCommand(sock, chatId, message, q) {
             text: `Your pairing code: ${code}`,
             contextInfo: {
               forwardingScore: 1,
-              isForwarded: true
+              isForwarded: true,
             },
           });
         } else {
@@ -83,7 +83,7 @@ async function pairCommand(sock, chatId, message, q) {
           text: errorMessage,
           contextInfo: {
             forwardingScore: 1,
-            isForwarded: true
+            isForwarded: true,
           },
         });
       }
